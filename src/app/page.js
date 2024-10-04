@@ -1,4 +1,6 @@
-import Watch from "./watch";
+import React from 'react';
+import './globals.css';
+
 
 function Page(){
   return(
