@@ -1,0 +1,149 @@
+.watch{
+    position:absolute; 
+    justify-content:center;
+    display:flex;
+}
+.circle {
+    border-radius: 50%; 
+    width: 141px;
+    height: 141px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: conic-gradient(from -45deg, #E68086 0% 15%, #EBE9E6 15% 100%);
+    flex-shrink: 0;
+    fill: var(--Light-c, #EBE9E6);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.circle_1 {
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color:  #E68086; 
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+}
+
+.hours-section span {
+    display: block;
+    font-size: 12px;
+    color: #4C4B49; 
+}
+.time-section span{
+    display: block;
+    font-size: 12px;
+    color: #4C4B49; 
+
+}
+.colon {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color:  #E68086;
+    font-weight: 600;
+    margin: 5px; 
+}
+h3{
+    color: black;
+    padding-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hours{
+    margin: 0;
+    color: var(--Error, #E68086);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.seconds{
+    color: var(--Error, #E68086);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.remaning{
+    text-align: center;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+.minText{
+
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.secText{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media(max-width:600px){
+    .circle{
+        width: 109px;
+        height: 109px;
+
+    }
+    .circle_1{
+        width: 84px;
+        height: 84px;
+    }
+
+    .remaning {
+        display: none;
+    }
+
+    .time {
+        font-family: Inter, sans-serif;
+        font-size: 12px;
+        color: #E68086;
+        font-weight: 500;
+        text-align: center;
+    }
+    h3{
+        font-size: 18px;
+        color: #E68086;
+    }
+    .seconds{
+        font-size: 18px;
+    }
+    .hours{
+        font-size: 18px;
+
+    }
+}
