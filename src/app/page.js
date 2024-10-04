@@ -1,6 +1,13 @@
-function Page(){
-  return(
-    <h2>hello</h2>
-  )
-}
-export default Page;
+import React from 'react';
+import './globals.css';
+import Grid from './grid.js';
+
+
+
+export default function Home() {
+    return (
+      <>
+        <Grid/>
+      </>
+    );
+};
