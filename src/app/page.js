@@ -1,6 +1,10 @@
+import './globals.css';
+import Watch from './watch';
 function Page(){
   return(
-    <h2>hello</h2>
+    <>
+    <Watch/>
+    </>
   )
 }
 export default Page;
